@@ -21,7 +21,7 @@ const CARD_HEIGHT = PAGE_HEIGHT * 0.5; // Висота картки
 const GAP = 50; // Відстань між картками
 
 const GameScreen = ({navigation}) => {
-  const [isAutoPlay, setIsAutoPlay] = useState(true);
+  //const [isAutoPlay, setIsAutoPlay] = useState(true);
   const [complite1Lvl, setComplite1Lvl] = useState(false);
   const [complite2Lvl, setComplite2Lvl] = useState(false);
   const [complite3Lvl, setComplite3Lvl] = useState(false);

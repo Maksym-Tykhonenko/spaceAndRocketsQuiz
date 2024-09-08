@@ -274,7 +274,7 @@ const GameScreen = ({navigation}) => {
                 <TouchableOpacity
                   disabled={card.lock}
                   onPress={() => {
-                    navigation.navigate(card.navPayload); // Використовуйте navPayload для навігації
+                    navigation.navigate(card.navPayload);
                   }}>
                   <View style={{alignItems: 'center'}}>
                     <Image
